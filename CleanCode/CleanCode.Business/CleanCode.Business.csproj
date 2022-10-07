@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanCode.Common\CleanCode.Common.csproj" />
+    <ProjectReference Include="..\CleanCode.Domain\CleanCode.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
